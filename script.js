@@ -111,7 +111,6 @@ clearBtn.addEventListener('click', function() {
 })
 
 deleteBtn.addEventListener('click', function() {
-    //display.textContent = display.textContent.toString().slice(0, -1); 
     if(firstNumber && secondNumber) {
         secondNumber = secondNumber.toString().slice(0,-1);
         display.textContent = display.textContent.toString().slice(0, -1); 
